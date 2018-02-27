@@ -1,0 +1,37 @@
+<app-header>
+
+</app-header>
+
+<section id="service" class="service">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="center">
+                <video #video class="video"></video>
+                <br>
+
+
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="text-center">
+                            <button (click)="startRecording()" class="btn btn-primary">
+                                <span class="glyphicon glyphicon-play"></span>Record </button>
+
+                            <button (click)="stopRecording()" class="btn btn-primary">
+                                <span class="glyphicon glyphicon-stop"></span> Stop</button>
+                        </div>
+                    </div>
+                    <div class="col-xs-12">
+                        <div class="center">
+                            <div class="center">
+                                <span>.............</span>
+                                <button class="btn btn-primary" (click)="download()">
+                                    <span class="glyphicon glyphicon-download"></span> Download</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<app-footer></app-footer>
