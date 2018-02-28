@@ -1,0 +1,8 @@
+Starting up http-server, serving dist/
+Available on:
+  http://10.109.217.199:8000
+  http://10.109.209.145:8000
+  http://127.0.0.1:8000
+Hit CTRL-C to stop the server
+http-server stopped.
+Terminate batch job (Y/N)? 
